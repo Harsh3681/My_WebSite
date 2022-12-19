@@ -1,0 +1,199 @@
+
+
+
+body{
+    /* background-color: aqua; */
+}
+
+/* belowbar */
+
+
+/* ul{
+    flex-direction: column;
+} */
+
+#belowbar ul li #search{
+    margin-left: 0px;
+    padding: 0px;
+}
+#belowbar ul li #search ,#submit{
+    padding: 0px;
+}
+#belowbar ul li a ,.but{
+    padding: 0px 8px;
+}
+
+ul a {
+    text-decoration: none;
+    font-size: 1.65rem;
+}
+
+/* #belowbar ul li input,button{
+    position: relative;
+    top: 1cm;
+    right: 8.5cm;
+  } */
+  #belowbar ul li input, button {
+    position: relative;
+    top: 1.5cm;
+    right: 9.5cm;
+}
+
+
+
+
+
+
+
+
+
+/* home */
+
+#home{
+    height: 510px;
+    padding: 1px 61px;
+}
+
+#home .alwaysH1{
+    padding: -5px ;
+    font-size: 1.5rem;
+    margin-bottom: 68px;
+    /* text-align:right ; */
+}
+#home .info{
+    padding-top: -5px;
+    font-size: 1.2rem;
+}
+#home::before{ 
+    height: 540px;
+    /* height: 200px; */
+}
+
+
+#home p {
+    margin: -24px;
+    text-align: -webkit-center;
+}
+
+/* .alwaysH1 {
+    padding: 47px;
+    text-align:right ;
+} */
+
+
+
+
+
+/* Services */
+
+.service-box #services{
+    flex-direction: column;
+}
+
+.service-box .alwaysH1 {
+    padding: 0px;
+    margin: 1cm;
+}
+
+#services{
+    margin: -18px;
+}
+
+.box{
+    margin: 15px;
+    padding: 19px;
+    height: 322px;
+}
+
+#services .box img {
+    height: 126px;
+    width: 123px;
+}
+.box img {
+    padding: 17px;
+}
+
+.alwaysH2 {
+    font-size: 1.4rem;
+    padding: 8px;
+}
+
+
+
+/* Client Section */
+
+.client-box{
+
+}
+
+.client-box::before {
+    top: 50.7cm;
+    height: 400px;
+}
+
+.clients{
+    flex-direction: raw;
+}
+
+.client-box img {
+    height: 95px;
+    width: 98px;
+    padding: 15px;
+}
+
+.clients #clients-logo{
+    padding-top: -2cm;
+}
+
+.clients .firstlogo{
+    position: relative;
+    top: 4cm;
+    left: 4.9cm;
+    
+}
+.clients .lastlogo{
+    position: relative;
+    top: 4cm;
+    right: 5.2cm;
+    
+}
+.client-box .alwaysH1 {
+    margin-top: 0.8cm;
+}
+
+
+
+
+/* Contsct Detail */
+
+.contact-details::before{
+    top: 65.7cm;
+    height: 500px;
+}
+
+
+.contact-details .alwaysH1 {
+    font-size: 2.3rem;
+    margin-top: 172px;
+    padding: 86px;
+}
+
+.contact-details .form-block input {
+    padding-left: 200px;
+}
+
+.contact-details .contacts .form-block #name {
+    padding-left: 220px;
+}
+
+.contact-details .contacts .contact-submit{
+    display: flex;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.contact-details .contacts {
+
+    margin-top: -1cm;
+}

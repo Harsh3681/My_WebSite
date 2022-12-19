@@ -1,0 +1,297 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+body {
+    /* background-color: rgb(26, 25, 25); */
+    margin: 0px;
+    padding: 0px;
+    color: white;
+  }
+
+  /* ---------------------------------- */
+
+  /* Navbar */
+
+  #belowbar ul{
+    position: fixed;
+
+  }
+    #belowbar{
+      /* display: flex; */
+      font-size: 36px;
+      margin: 20px;
+    }
+    
+    #belowbar::before{            
+      content: "";
+      position: absolute;
+      background-color: black;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+    }
+    
+    #belowbar{
+      position: relative;
+    }
+    
+    ul{
+      list-style: none;
+      display: flex;
+    }
+
+    ul a{
+      text-decoration: none;
+    }
+
+    #belowbar ul li a ,.but{
+      color: rgb(251, 250, 255);
+      display: block;
+      padding: 3px 22px;
+      border-radius: 20px;
+    }
+    #belowbar ul li #search{
+      /* display: block; */
+      border-radius: 2cm;
+      padding: 5px;
+      margin-left: 5.5cm;
+      border-color: blue;
+
+    }
+    #belowbar ul li #search ,#submit{
+      display: block;
+      border-color: blue;
+      border-radius: 2cm;
+      padding: 5px;
+
+      cursor: pointer;
+    }
+
+    #belowbar ul li a:hover{
+      color: black;
+      background-color: white;
+      cursor: pointer;
+    }
+    
+
+
+/* home */
+
+
+  #home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 580px;
+    padding: 3px 200px;
+
+  }
+
+  #home::before{                    /*   this is for background image*/
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: linear-gradient(to right, rgb(0 0 0), rgb(77 0 255 / 46%)), url(/PortPholi2/9.jpg) center center / cover no-repeat;
+  }
+
+.alwaysH1{
+  font-size: 3rem;
+  padding: 10px;
+  text-align: center;
+  /* color: black; */
+}
+.alwaysH2{
+  font-size: 1.9rem;
+  padding: 10px;
+}
+
+
+#home .info{
+  padding-top: 20px;
+  font-size: 1.6rem;
+  font-family: cursive;
+}
+
+#infosubmit:hover{
+  padding: 15px 2cm;
+  color: blue;
+  font-size: large;
+}
+
+
+
+
+/* Services */
+
+.service-box .alwaysH1{
+  font-size: 2.3rem;
+  font-weight: bolder;
+  color: black;
+  padding: 15px;
+  margin-top: 1.5cm;
+}
+
+#services{
+  margin: 30px;
+  display: flex;
+}
+#services .box{
+  border: 2px solid red;
+}
+#services .box img{
+  height: 130px;
+  display: block;               /* display Block and "margin- auto"  for the centering the image*/
+  margin: auto;
+
+}
+.box{
+  margin: 25px;
+  border-radius: 20px;
+  background-color: rgb(230, 237, 243);
+  height: 360px;
+  padding: 30px;
+}
+.box img{
+  padding: 10px;
+  
+}
+
+.box p,#mis{
+  color: black;
+  text-align: center;
+  font-family: cursive;
+  padding: 5px;
+}
+.box .alwaysH2{
+  color: black;
+  text-align: center;
+  font-family: cursive;
+}
+
+
+
+/* Client Section */
+
+.client-box::before{
+  content: "";
+  position: absolute;
+  top: 35.7cm;
+  height: 400px;
+  width: 100%;
+  
+  z-index: -1;
+  background: linear-gradient(to right, rgb(0 0 0), rgb(77 0 255 / 46%)), url(/PortPholi2/jj.jpg) center center / cover no-repeat;
+  opacity: 0.7;
+}
+
+.client-box .alwaysH1{
+    font-size: 2.3rem;
+    font-weight: bolder;
+    color: black;
+    padding: 9px;
+    margin-top: 0.4cm;
+}
+
+.clients{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.9cm;
+  /* flex-direction: ; */
+}
+.client-box img{
+  height: 5cm;
+  width: 4cm;
+  padding: 30px;
+  
+}
+
+.clients #clients-logo{
+      padding-top: -2cm;
+}
+
+
+
+
+/* Contact Detail */
+
+.contact-details::before{
+  content: "";
+  position: absolute;
+  top: 51cm;
+  height: 502px;
+  width: 100%;
+  
+  z-index: -1;
+  background: linear-gradient(to right, rgb(0 0 0), rgb(77 0 255 / 46%)), url(/PortPholi2/jj.jpg) center center / cover no-repeat;
+  opacity: 0.7;
+}
+
+.contact-details .alwaysH1{
+  padding: 3.9cm;
+  color: black;
+}
+
+.contact-details .contacts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 3px 22px; */
+  margin-top: -2cm;
+}
+
+.contact-details .form-block{
+  padding: 12px;
+}
+.contact-details .form-block input{
+  padding: 2px;
+  padding-left: 350px;
+
+}
+
+#contact-submit{
+  margin-left: 15px;
+}
+
+.contact-details .contacts .form-block label{
+  display: flex;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.3rem;
+  font: bolder;
+}
+
+.contact-details .contacts .form-block #name{
+  padding-left: 360px;
+  
+}
+.contact-details .contacts .contact-submit{
+  display: flex;
+  color: black;
+  text-align: center;
+  justify-content: center;
+
+}
+
+/* fotter */
+
+footer{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 2cm;
+  /* align-items: center; */
+}
