@@ -100,7 +100,7 @@ body {
     height: 100%;
     width: 100%;
     z-index: -1;
-    background: linear-gradient(to right, rgb(0 0 0), rgb(77 0 255 / 46%)), url(images/9.jpg) center center / cover no-repeat;
+    background: linear-gradient(to right, rgb(0 0 0), rgb(77 0 255 / 46%)), url(/index/images/9.jpg) center center / cover no-repeat;
   }
 
 .alwaysH1{
@@ -189,7 +189,7 @@ body {
   width: 100%;
   
   z-index: -1;
-  background: linear-gradient(to right, rgb(0 0 0), rgb(77 0 255 / 46%)), url(images/jj.jpg) center center / cover no-repeat;
+  background: linear-gradient(to right, rgb(0 0 0), rgb(77 0 255 / 46%)), url(/index/images/jj.jpg) center center / cover no-repeat;
   opacity: 0.7;
 }
 
@@ -232,7 +232,7 @@ body {
   width: 100%;
   
   z-index: -1;
-  background: linear-gradient(to right, rgb(0 0 0), rgb(77 0 255 / 46%)), url(images/jj.jpg) center center / cover no-repeat;
+  background: linear-gradient(to right, rgb(0 0 0), rgb(77 0 255 / 46%)), url(/index/images/jj.jpg) center center / cover no-repeat;
   opacity: 0.7;
 }
 
